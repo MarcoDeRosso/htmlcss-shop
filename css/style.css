@@ -21,7 +21,7 @@
 
 /* inizio sezione immagini shop */
 
-div[class*="img-conteiner"]{
+[class*="img-conteiner"]{
     height: 600px;
     width: calc(100% / 3 - 30px);
     margin: 15px;
@@ -35,8 +35,22 @@ div[class*="img-conteiner"]{
     background-position: center;
 }
 
+.img-conteiner1:hover {
+    background: url(../img/1-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .img-conteiner2{
     background: url(../img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner2:hover {
+    background: url(../img/2-hover.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,8 +63,23 @@ div[class*="img-conteiner"]{
     background-position: center;
 }
 
+.img-conteiner3:hover {
+    background: url(../img/3-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .img-conteiner4{
     background: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner4:hover {
+    background: url(../img/4-hover.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,6 +92,13 @@ div[class*="img-conteiner"]{
     background-position: center;
 }
 
+.img-conteiner5:hover {
+    background: url(../img/5-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .img-conteiner6{
     background: url(../img/6.webp);
     background-size: cover;
@@ -70,6 +106,12 @@ div[class*="img-conteiner"]{
     background-position: center;
 }
 
+.img-conteiner6:hover {
+    background: url(../img/6-hover.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* inizio sezione sconti */
 
