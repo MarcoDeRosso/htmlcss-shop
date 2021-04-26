@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: aqua;
+}
+
+/* inizio sezione immagini shop */
+
+.img-conteiner{
+    height: 600px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    background: blue;
+    border: 1px solid black;
+}
