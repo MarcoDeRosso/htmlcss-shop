@@ -17,18 +17,57 @@
 .conteiner{
     max-width: 1200px;
     margin: 0 auto;
-    background: aqua;
 }
 
 /* inizio sezione immagini shop */
 
-.img-conteiner{
+div[class*="img-conteiner"]{
     height: 600px;
     width: calc(100% / 3 - 30px);
     margin: 15px;
     margin-bottom: 100px;
-    background: blue;
-    border: 1px solid black;
+}
+
+.img-conteiner1{
+    background: url(../img/1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner2{
+    background: url(../img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner3{
+    background: url(../img/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner4{
+    background: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner5{
+    background: url(../img/5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-conteiner6{
+    background: url(../img/6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -70,5 +109,50 @@
 
 .img-text{
     height: 100px;
-    background: white;
+    padding-top: 10px;
+    position: relative;
+}
+
+.img-textspecial{
+    background: #5ab451;
+    height: 100px;
+    padding: 20px;
+}
+.img-text > h3{
+    font-size: 14px;
+    color: #818181;
+}
+
+.img-text > h2{
+    font-size: 18px;
+    color: black;
+}
+
+.img-textspecial > h2{
+    font-size: 20px;
+    color: black;
+}
+.img-textspecial > h3{
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.price{
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+}
+
+.b-price{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
 }
