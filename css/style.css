@@ -187,7 +187,7 @@
     font-size: 18px;
     font-weight: bold;
     left: 0;
-    bottom: 0;
+    bottom: 15px;
 }
 
 .b-price{
@@ -196,5 +196,5 @@
     font-size: 18px;
     font-weight: bold;
     left: 0;
-    bottom: 0;
+    bottom: 15px;
 }
